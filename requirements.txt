@@ -15,3 +15,5 @@ setuptools
 wheel
 python3-distutils
 
+pip install --upgrade setuptools
+
