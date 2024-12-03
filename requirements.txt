@@ -1,0 +1,13 @@
+pandas
+numpy
+streamlit
+gradio
+matplotlib
+seaborn
+scipy
+tpot
+scikit-learn
+transformers
+Pillow
+nltk
+lxml
