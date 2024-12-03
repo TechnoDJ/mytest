@@ -22,8 +22,8 @@ import xml.etree.ElementTree as ET
 import json
 
 # Set Hugging Face API tokens
-os.environ['HF_TOKEN'] = "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"
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+os.environ["HF_TOKEN"] = st.secrets["HF_TOKEN"]
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 # Download necessary NLTK data
 nltk.download('punkt')
