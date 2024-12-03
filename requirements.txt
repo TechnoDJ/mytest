@@ -33,5 +33,5 @@ torch==2.2.2
 transformers==4.39.2
 xgboost==2.1.0
 TPOT==0.12.2
-python==3.9.6
+python
 
