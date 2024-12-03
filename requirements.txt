@@ -28,10 +28,10 @@ scipy==1.12.0
 seaborn==0.13.2
 spacy==3.7.4
 streamlit==1.32.2
-tensorflow==2.13.0
+tensorflow
 torch==2.2.2
 transformers==4.39.2
 xgboost==2.1.0
 TPOT==0.12.2
-python-3.12.7
+python==3.12.7
 
