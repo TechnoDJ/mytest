@@ -1,10 +1,5 @@
-mkdir -p ~/.streamlit/
+#!/bin/bash
 
-echo "\
-[server]\n\
-headless = true\n\
-enableCORS=false\n\
-port = $PORT\n\
-" > ~/.streamlit/config.toml
-
+# Update and install distutils
 apt-get update && apt-get install -y python3-distutils
+
